@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_DGSAttributedStringSuite_DGSAttributedStringSuite : NSObject
+@end
+@implementation PodsDummy_Pods_DGSAttributedStringSuite_DGSAttributedStringSuite
+@end

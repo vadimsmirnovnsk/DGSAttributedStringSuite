@@ -8,6 +8,8 @@
 
 #import "DGSViewController.h"
 
+#import <DGSAttributedStringSuite/DGSAttributedStringSuite.h>
+
 @interface DGSViewController ()
 
 @end
@@ -17,7 +19,27 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	self.view.backgroundColor = [UIColor lightGrayColor];
+
+	NSMutableAttributedString *newString = [NSMutableAttributedString dgs_makeString:^(DGSAttributedStringMaker *add)
+	{
+		add.string(@"Hello ").with.
+			color([UIColor redColor]).
+			strikedThroughWithStyle(NSUnderlineStyleDouble);
+		add.string(@"bro! ").
+			underlinedWithStyle(NSUnderlineStyleSingle);
+		add.string(@"Mathafaka!!!").
+			letterpressed(YES);
+	}];
+
+	NSAttributedString *remakedString =
+		[newString dgs_stringByRemaking:^(DGSAttributedStringMaker *add) {
+			add.string(@" Remaked!");
+		}];
+
+	UILabel *testLabel = [[UILabel alloc] initWithFrame:self.view.bounds];
+	testLabel.attributedText = remakedString;
+	[self.view addSubview:testLabel];
 }
 
 - (void)didReceiveMemoryWarning

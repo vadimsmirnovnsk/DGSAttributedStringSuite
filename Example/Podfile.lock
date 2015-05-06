@@ -1,0 +1,14 @@
+PODS:
+  - DGSAttributedStringSuite (0.1.0)
+
+DEPENDENCIES:
+  - DGSAttributedStringSuite (from `../`)
+
+EXTERNAL SOURCES:
+  DGSAttributedStringSuite:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DGSAttributedStringSuite: 5a3fff6d38e1db4086727aa66e2ed75cf4618ce6
+
+COCOAPODS: 0.35.0
