@@ -14,11 +14,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DGSAttributedStringSuite is just a syntax-sugar-like helper for simple creating NSAttributedStrings by chaining parameters for every part of creating string.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DGSAttributedStringSuite"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/vadimsmirnovnsk/DGSAttributedStringSuite.git"
   s.license          = 'MIT'
   s.author           = { "Vadim Smirnov" => "va.smirnov@2gis.ru" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DGSAttributedStringSuite.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/vadimsmirnovnsk/DGSAttributedStringSuite.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
