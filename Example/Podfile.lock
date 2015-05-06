@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DGSAttributedStringSuite: 5a3fff6d38e1db4086727aa66e2ed75cf4618ce6
+  DGSAttributedStringSuite: 97b0c1475cf18b9e0c6bbea4fd1c9051f8ea87aa
 
 COCOAPODS: 0.35.0
