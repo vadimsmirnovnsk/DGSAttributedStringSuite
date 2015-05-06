@@ -9,7 +9,25 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+With this library you can to create simply NSAttributedStrings by chaining strings with parameters.
+Just look down.
+
+```objective-c
+// Create new mutable string.
+	NSMutableAttributedString *mutableString = [NSMutableAttributedString dgs_makeString:^(DGSAttributedStringMaker *add)
+	{
+		add.string(@"Hello ").with.
+			color([UIColor redColor]).
+			strikedThroughWithStyle(NSUnderlineStyleDouble);
+		add.string(@"bro! \n\n").
+			underlinedWithStyle(NSUnderlineStyleSingle);
+		add.string(@"Do you like this style of creation attributed strings?\n\n").
+			letterpressed(YES);
+	}];
+```
+
 ## Requirements
+iOS started from 7.0 version.
 
 ## Installation
 
