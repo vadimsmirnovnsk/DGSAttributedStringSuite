@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'DGSAttributedStringSuite', :exclusive => true do
+  pod "DGSAttributedStringSuite", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "DGSAttributedStringSuite", :path => "../"
+
+  
+end
