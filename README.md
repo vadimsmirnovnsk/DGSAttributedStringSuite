@@ -1,6 +1,6 @@
 # DGSAttributedStringSuite
 
-[![CI Status](http://img.shields.io/travis/Vadim Smirnov/DGSAttributedStringSuite.svg?style=flat)](https://travis-ci.org/Vadim Smirnov/DGSAttributedStringSuite)
+[![CI Status](http://img.shields.io/travis/vadimsmirnovnsk/DGSAttributedStringSuite.svg?style=flat)](https://travis-ci.org/vadimsmirnovnsk/DGSAttributedStringSuite)
 [![Version](https://img.shields.io/cocoapods/v/DGSAttributedStringSuite.svg?style=flat)](http://cocoapods.org/pods/DGSAttributedStringSuite)
 [![License](https://img.shields.io/cocoapods/l/DGSAttributedStringSuite.svg?style=flat)](http://cocoapods.org/pods/DGSAttributedStringSuite)
 [![Platform](https://img.shields.io/cocoapods/p/DGSAttributedStringSuite.svg?style=flat)](http://cocoapods.org/pods/DGSAttributedStringSuite)
